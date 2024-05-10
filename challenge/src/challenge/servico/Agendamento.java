@@ -38,7 +38,7 @@ public class Agendamento {
 
         String horarioSelecionado = mecanicaSelecionada.getHorariosDisponiveis().get(horario);
 
-        System.out.println("AGENDAMENTO FEITO AS " + horarioSelecionado);
+        System.out.println("AGENDAMENTO FEITO AS " + horarioSelecionado + ", VALOR RECOMENDADO: " + orcamento.getValorOrcamento());
             System.out.println(mecanicaSelecionada.getNome() + ", " + mecanicaSelecionada.getEndereco().getRua() +  ", n"
                     + mecanicaSelecionada.getEndereco().getNumero() + ", CEP:" + mecanicaSelecionada.getEndereco().getCep());
 
