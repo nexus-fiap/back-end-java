@@ -10,4 +10,16 @@ public class Endereco {
         this.numero = numero;
         this.cep = cep;
     }
+
+    public String getRua() {
+        return rua;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public String getCep() {
+        return cep;
+    }
 }

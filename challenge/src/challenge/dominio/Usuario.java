@@ -58,6 +58,10 @@ public class Usuario {
         System.out.println(nome + ", acesso negado!");
     }
 
+    public ArrayList<Veiculo> getVeiculos() {
+        return veiculos;
+    }
+
     public void verVeiculos() {
         if (logado) {
             for (Veiculo veiculoSelecionado: veiculos) {
