@@ -27,10 +27,9 @@ public class Main {
 
         vitor.adicionarVeiculo(new Veiculo("234DFFS4", "X3", "BMW", 2017));
 
-        vitor.verVeiculos();
+        vitor.adicionarVeiculo(new Veiculo("2DSSA42", "Z4", "BMW", 2020));
 
         vitor.verVeiculos();
-
 
     }
 }
