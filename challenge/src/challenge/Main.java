@@ -31,6 +31,8 @@ public class Main {
 
         autorizacaoDoSite.validarAcesso(vitor);
 
+        atendimentoDoSite.fazerAtendimento(vitor);
+
         vitor.adicionarVeiculo(new Veiculo("234DFFS4", "X3", "BMW", 2017));
 
         vitor.adicionarVeiculo(new Veiculo("2DSSA42", "Z4", "BMW", 2020));

@@ -72,6 +72,4 @@ public class Usuario {
         System.out.println(nome + ", acesso negado!");
     }
 
-
-
 }

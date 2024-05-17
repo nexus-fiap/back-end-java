@@ -17,11 +17,6 @@ public class Agendamento {
     }
 
     public void agendarHorario() {
-//        for (Mecanica mecanica: mecanicas) {
-//            System.out.println(mecanica.getNome() + ", " + mecanica.getEndereco().getRua() +  ", N"
-//                    + mecanica.getEndereco().getNumero() + ", CEP:" + mecanica.getEndereco().getCep());
-//            mecanica.gerarHorarios();
-//        }
         System.out.println("\n");
         for (int i = 0; i < mecanicas.size(); i++) {
             System.out.println(i + " " + mecanicas.get(i).getNome());
@@ -39,8 +34,8 @@ public class Agendamento {
         String horarioSelecionado = mecanicaSelecionada.getHorariosDisponiveis().get(horario);
 
         System.out.println("AGENDAMENTO FEITO AS " + horarioSelecionado + ", VALOR RECOMENDADO: " + orcamento.getValorOrcamento());
-            System.out.println(mecanicaSelecionada.getNome() + ", " + mecanicaSelecionada.getEndereco().getRua() +  ", n"
-                    + mecanicaSelecionada.getEndereco().getNumero() + ", CEP:" + mecanicaSelecionada.getEndereco().getCep());
+        System.out.println(mecanicaSelecionada.getNome() + ", " + mecanicaSelecionada.getEndereco().getRua() +  ", n"
+                + mecanicaSelecionada.getEndereco().getNumero() + ", CEP:" + mecanicaSelecionada.getEndereco().getCep());
 
     }
 }
